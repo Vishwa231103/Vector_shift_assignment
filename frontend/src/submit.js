@@ -7,7 +7,7 @@ export const SubmitButton = () => {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/pipelines/parse",
+        "https://vector-shift-6o2f.onrender.com/pipelines/parse",
         {
           method: "POST",
           headers: {
